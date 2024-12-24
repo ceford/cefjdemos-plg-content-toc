@@ -1,0 +1,18 @@
+<changelogs>
+    <changelog>
+        <element>plg_content_cefjdemostoc</element>
+        <type>plugin</type>
+        <version>0.2.0</version>
+        <change>
+            <item>Added update server.</item>
+        </change>
+    </changelog>
+    <changelog>
+        <element>plg_content_cefjdemostoc</element>
+        <type>plugin</type>
+        <version>0.1.0</version>
+        <addition>
+            <item>First release.</item>
+        </addition>
+    </changelog>
+</changelogs>

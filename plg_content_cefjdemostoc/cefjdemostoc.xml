@@ -7,7 +7,7 @@
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <authorEmail>cliff@xxxx.yyyy.co.uk</authorEmail>
     <authorUrl>jdocmanual.org</authorUrl>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <description>PLG_CONTENT_CEFJDEMOSTOC_XML_DESCRIPTION</description>
     <namespace path="src">Cefjdemos\Plugin\Content\Cefjdemostoc</namespace>
     <files>
@@ -18,6 +18,11 @@
     <media destination="plg_content_cefjdemostoc" folder="media">
         <folder>css</folder>
     </media>
+    <changelogurl>https://raw.githubusercontent.com/ceford/cefjdemos-plg-content-toc/main/changelog.xml</changelogurl>
+    <updateservers>
+        <!-- Note: No spaces or linebreaks allowed between the server tags -->
+        <server type="extension" priority="2" name="Cefjdemostoc Update Site">https://raw.githubusercontent.com/ceford/cefjdemos-plg-content-toc/main/updates.xml</server>
+    </updateservers>
     <config>
         <fields name="params">
             <fieldset name="basic">
