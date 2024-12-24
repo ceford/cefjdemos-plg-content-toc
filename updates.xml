@@ -5,7 +5,8 @@
         <description>Content Pugin for Table of Contents</description>
         <element>plg_content_cefjdemostoc</element>
         <type>plugin</type>
-        <version>0.2.0</version>
+        <version>0.2.1</version>
+        <client>site</client>
         <infourl title="Cefjdemostoc Plugin">https://github.com/ceford/cefjdemos-plg-content-toc/blob/main/README.md</infourl>
         <downloads>
             <downloadurl type="full" format="zip">https://github.com/ceford/cefjdemos-plg-content-toc/archive/refs/heads/main.zip</downloadurl>
