@@ -1,0 +1,57 @@
+.card.cefjdemostoc {
+    background-color: azure;
+    font-size: 1.5rem ! important;
+}
+
+.card.cefjdemostoc .card-header {
+    text-align:center
+}
+/*
+X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .card.cefjdemostoc {
+        float: right;
+        max-width: 50%;
+        margin-left: 0.5rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .card.cefjdemostoc {
+        float: right;
+        max-width: 40%;
+        margin-left: 0.5rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .card.cefjdemostoc {
+        float: right;
+        max-width: 40%;
+        margin-left: 0.5rem;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .card.cefjdemostoc {
+        float: right;
+        max-width: 40%;
+        margin-left: 0.5rem;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .card.cefjdemostoc {
+        float: right;
+        max-width: 40%;
+        margin-left: 0.5rem;
+    }
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="plugin" group="content" method="upgrade">
+    <name>plg_content_cefjdemostoc</name>
+    <author>Clifford E Ford</author>
+    <creationDate>2024-12-23</creationDate>
+    <copyright>(C) 2024 Clifford E Ford</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>cliff@xxxx.yyyy.co.uk</authorEmail>
+    <authorUrl>jdocmanual.org</authorUrl>
+    <version>0.1.0</version>
+    <description>PLG_CONTENT_CEFJDEMOSTOC_XML_DESCRIPTION</description>
+    <namespace path="src">Cefjdemos\Plugin\Content\Cefjdemostoc</namespace>
+    <files>
+        <folder plugin="cefjdemostoc">services</folder>
+        <folder>src</folder>
+        <folder>language</folder>
+    </files>
+    <media destination="plg_content_cefjdemostoc" folder="media">
+        <folder>css</folder>
+    </media>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                    name="help"
+                    type="list"
+                    label="PLG_CONTENT_CEFJDEMOSTOC_PARAMS_APPLIES_LABEL"
+                    description="PLG_CONTENT_CEFJDEMOSTOC_PARAMS_APPLIES_DESC"
+                    default="PLG_CONTENT_CEFJDEMOSTOC_PARAMS_APPLIES_DEFAULT"
+                >
+                    <option value="">PLG_CONTENT_CEFJDEMOSTOC_PARAMS_APPLIES_DEFAULT</option>
+                </field>
+
+                <field
+                    name="toc_class"
+                    type="text"
+                    label="PLG_CONTENT_CEFJDEMOSTOC_PARAMS_CARD_CLASS_LABEL"
+                    description="PLG_CONTENT_CEFJDEMOSTOC_PARAMS_CARD_CLASS_DESC"
+                />
+
+                <field
+                    name="toc_head_class"
+                    type="list"
+                    label="PLG_CONTENT_CEFJDEMOSTOC_PARAMS_CARD_HEAD_CLASS_LABEL"
+                    description="PLG_CONTENT_CEFJDEMOSTOC_PARAMS_CARD_HEAD_CLASS_DESC"
+                    default="center"
+                >
+                    <option value="text-center">text-center</option>
+                    <option value="text-start">text-start</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
