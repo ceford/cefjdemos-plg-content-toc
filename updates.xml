@@ -14,5 +14,5 @@
         <changelogurl>https://github.com/ceford/cefjdemos-plg-content-toc/changelog.xml</changelogurl>
         <targetplatform name="joomla" version="[56].[012345]" />
 		<php_minimum>8.1</php_minimum>
-	</update>    </update>
+	</update>
 </updates>
