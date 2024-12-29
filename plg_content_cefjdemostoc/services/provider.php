@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @package     Joomla.Plugin
+ * @package     Cefjdemostoc.Plugin
  * @subpackage  Content.cefjdemostoc
  *
  * @copyright   (C) 2024 Clifford E Ford <https://jdocmanual.org>
