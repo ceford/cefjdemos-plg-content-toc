@@ -7,12 +7,13 @@
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <authorEmail>cliff@xxxx.yyyy.co.uk</authorEmail>
     <authorUrl>jdocmanual.org</authorUrl>
-    <version>0.2.2</version>
+    <version>0.2.3</version>
     <description>PLG_CONTENT_CEFJDEMOSTOC_XML_DESCRIPTION</description>
     <namespace path="src">Cefjdemos\Plugin\Content\Cefjdemostoc</namespace>
     <files>
         <folder plugin="cefjdemostoc">services</folder>
         <folder>src</folder>
+        <folder>tmpl</folder>
         <folder>language</folder>
     </files>
     <media destination="plg_content_cefjdemostoc" folder="media">
